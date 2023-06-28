@@ -37,11 +37,26 @@ params:
   shortDateFormat: 15:04 UTC — Jan 2
   down: "#e60000"
   systems:
-    - name: ptr.gg - Frontend
+    - name: ptr.gg
       description: ptr.gg portfolio and web frontend
-      category: Primary Access Server
+      category: Alpha Server
       link: https://example.com/
       partial: ""
+    - name: ptrs.xyz
+      category: Beta Server
+      description: ptrs.xyz personal portfolio web frontend
+    - name: birdly.uk
+      category: Beta Server
+      description: birdly.uk political blog web frontend
+    - name: cloud.ptr.gg
+      category: Alpha Server
+      description: ptr.gg cloud service provider
+    - name: filehost.ptr.gg
+      category: Alpha Server
+      description: File hosting backend
+    - name: url.ptr.gg
+      category: Alpha Server
+      description: Custom URL shortening service
   dateFormat: January 2, 2006 at 3:04 PM UTC
   brand: "#0a0c0f"
   enableLastMod: true
@@ -58,13 +73,13 @@ params:
   disableIncidentHistory: false
   ok: "#008000"
   categories:
-    - name: Primary Access Server
+    - name: Alpha Server
       description: Primary web service provision server
       closed: true
-    - name: Secondary Web Host
-      description: Secondary webpage provision host
+    - name: Beta Server
+      description: Secondary web service provision server
       closed: true
-  description: Status page is automatically updated and hosted independtly from
-    any listed services.
+  description: Status page is manually upadted and hosted with redundancy and
+    independently from any listed services.
   enableCustomHTML: true
   useLargeHeaderDesign: false
