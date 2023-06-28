@@ -78,12 +78,13 @@ params:
   categories:
     - name: Alpha Server
       description: Primary web service provision server
-      closed: true
+      closed: false
     - name: Beta Server
       description: Secondary web service provision server
-      closed: true
+      closed: false
     - name: Other
       description: External and other services
+      closed: true
   description: Status page is manually upadted and hosted with redundancy and
     independently from any listed services.
   enableCustomHTML: true
